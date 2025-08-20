@@ -14,7 +14,6 @@
       content="https://www.google.com/imgres?q=nikola%20tesla&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F79%2FTesla_circa_1890.jpeg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNikola_Tesla&docid=ffC4b7aiemYIWM&tbnid=otb2kCu2KNhWKM&vet=12ahUKEwjkvbywqJaPAxWBhP0HHcc2CV0QM3oECBsQAA..i&w=940&h=1260&hcb=2&ved=2ahUKEwjkvbywqJaPAxWBhP0HHcc2CV0QM3oECBsQAA">
     <meta property="og:url" content="siteURL" >
     <title>Moshify - Go Online for just $9</title>
-    <link rel="stylesheet" href="css/normalize.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com" >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
@@ -31,7 +30,7 @@
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt=""></a>
+        <a aria-label="Moshify" class="nav__brand" href="/"><img src="images/logo.svg" alt="Company Logo"></a>
         <svg class="icon icon--white nav__toggler">
           <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
@@ -76,6 +75,7 @@
       </header>
       <div class="input-group box-shadow">
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter domain name here...">
